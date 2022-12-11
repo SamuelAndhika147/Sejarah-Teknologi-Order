@@ -1,0 +1,129 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Times New Roman', Times, serif	;
+	color: rgb(0, 0, 0);
+}
+
+header {
+	height: 70px;
+}
+
+header h1 {
+	display: inline-block;
+	padding: 15px 24px;
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+}
+
+header h2 {
+	display: inline-block;
+	padding: 20px 24px 15px 24px;
+	text-transform: uppercase;
+	color: white;
+}
+
+header h1 a {
+	transition: .3s;
+}
+
+header h1 a:hover {
+	color: #2f2fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #495579;
+	z-index: 1;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+/* BODY */
+.body-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	height: auto;
+	padding: 10rem 15rem 15rem 15rem;
+	
+}
+
+.body-container .link{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.body-container .link .link-row{
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.body-container .isi{
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	border: 1px solid black;
+	
+	width: auto;
+	height: auto;
+	padding: 1rem;
+	
+}
+
+.body-container .isi p{
+	font-size: large;
+}
+
+.body-container .isi img{
+	width: 300px;
+	height: 200px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.body-container .isi .generasi{
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+
+	border-top: 1px solid black;
+}
+
+.body-container .button button{
+	margin-top: 2rem;
+	padding: 5px;
+	border: none;
+	background-color: white;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.body-container .button button:hover{
+	padding: 8px;
+	background-color: whitesmoke;
+}
+
+
