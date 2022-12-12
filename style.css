@@ -155,7 +155,7 @@ a {
 @media (max-width: 800px) {
 	.body-container{
 		height: auto;
-		padding: 5rem 1rem 5rem 1rem;
+		padding: 10rem 1rem 10rem 1rem;
 	}
 }
 
