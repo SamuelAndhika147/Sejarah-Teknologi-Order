@@ -17,7 +17,7 @@ header h1 {
 	color: rgb(255, 255, 255);
 }
 
-header h2 {
+header h3 {
 	display: inline-block;
 	padding: 20px 24px 15px 24px;
 	text-transform: uppercase;
@@ -127,3 +127,40 @@ a {
 }
 
 
+
+
+
+/* RESPONSIVE PADDING */
+@media (max-width: 1580px) {
+	.body-container{
+		height: auto;
+		padding: 15rem 15rem 15rem 15rem;
+	}
+}
+
+@media (max-width: 1250px) {
+	.body-container{
+		height: auto;
+		padding: 12rem 10rem 12rem 10rem;
+	}
+}
+
+@media (max-width: 915px) {
+	.body-container{
+		height: auto;
+		padding: 10rem 5rem 10rem 5rem;
+	}
+}
+
+@media (max-width: 800px) {
+	.body-container{
+		height: auto;
+		padding: 5rem 1rem 5rem 1rem;
+	}
+}
+
+@media (max-width: 510px) {
+	.navbar{
+		flex-direction: column;
+	}
+}
